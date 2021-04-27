@@ -24,7 +24,9 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label4.Text = "Hello " + textFirstName.Text + "! Thank you for registering.";
+            labelWelcome.Text = "Welcome " + textFirstName.Text + 
+                "! Thank you for registering. A verification email has been sent to " +
+                textEmail.Text + ".";
         }
     }
 }
